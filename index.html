@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ekundayo sunday - Portfolio</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      background-color: #f8f9fa;
+      color: #333;
+    }
+
+    header {
+      background-color: #2c3e50;
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+      border-bottom: 4px solid #3498db;
+    }
+
+  header img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 15px;
+    }
+
+    header h1 {
+      margin-bottom: 5px;
+      font-size: 28px;
+    }
+
+    header p {
+      font-size: 16px;
+      color: #bdc3c7;
+    }
+main {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    section {
+      margin-bottom: 50px;
+    }
+
+    h2 {
+      margin-bottom: 15px;
+      border-bottom: 2px solid #eee;
+      padding-bottom: 5px;
+    }
+
+    .projects {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .project-card {
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 15px;
+ flex: 1 1 30%;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+      transition: transform 0.2s ease;
+    }
+
+    .project-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .project-card img {
+      width: 100%;
+      border-radius: 5px;
+      margin-bottom: 10px;
+    }
+
+    .project-card h3 {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+
+    .contact-info {
+      line-height: 1.8;
+    }
+
+    .contact-info a {
+      text-decoration: none;
+ color: #3498db;
+    }
+
+    footer {
+      background: #2c3e50;
+      color: #ccc;
+      text-align: center;
+      padding: 20px 10px;
+      font-size: 14px;
+    }
+
+    @media (max-width: 768px) {
+      .projects {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <img src="IMG_20231108_110521.jpg" alt="Profile Picture" />
+    <h1>Ekunday sunday</h1>
+    <p>Frontend Developer & UI Designer</p>
+  </header>
+
+  <main>
+    <!-- About -->
+ <section>
+      <h2>About Me</h2>
+      <p>
+        I'm Ekundayo, a frontend developer with a love for creating beautiful, responsive web interfaces.
+        I specialize in HTML, CSS, Javascript, and React. With a background in graphic design, I bring a
+        creative approach to everything I build. Whether it's a personal blog, landing page or full-stack app,
+        I enjoy transforming ideas into polished digital experiences.
+      </p>
+    </section>
+
+    <!-- Projects -->
+    <section>
+      <h2>Projects</h2>
+      <div class="projects">
+        <div class="project-card">
+          <img src="lee-campbell-DtDlVpy-vvQ-unsplash.jpg" alt="Portfolio Website" />
+          <h3>Personal Portfolio Website</h3>
+          <p>A clean and modern portfolio website to showcase my work, built with HTML, CSS, and JavaScript.</p>
+        </div>
+        <div class="project-card">
+          <img src="glenn-carstens-peters-RLw-UC03Gwc-unsplash.jpg" alt="To-Do List App" />
+          <h3>To-Do List App</h3>
+          <p>A simple to-do list app with task persistence using local storage. Built in vanillaJavaScript.</p>
+        </div>
+        <div class="project-card">
+          <img src="abid-shah-GSgGDBJKPiA-unsplash.jpg" alt="Weather App" />
+          <h3>Weather App</h3>
+          <p>Fetches real-time weather data from OpenWeather API. Built with HTML, CSS, and JavaScript (Fetch API).</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section>
+      <h2>Contact Me</h2>
+      <div class="contact-info">
+        📧 Email: <a href="mailto">ekundayosundayabel@gail.com</a><br>
+        🔗 LinkedIn: <a href="https://www.linkedin.com/in/ekundayo/" target="_blank">@emmanuel-mark-22a12716a</a><br>
+        💼 GitHub: <a href="https://github.com/Abbey87" target="_blank">github.com/emman001</a>
+      </div>
+    </section>
+  </main> <footer>
+    &copy; 2025 Jane Doe. All rights reserved.
+  </footer>
+
+  <script>
+    // You can add interactive behavior here if needed
+    console.log("Welcome to Ekundayo's Portfolio!");
+  </script>
+
+</body>
+</html>
